@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(../12.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font:bold 12px Arial, Helvetica, sans-serif;
+ 
+}
+
+.clock {
+  border: 1px solid black;
+  /* counter-reset: white; */
+  border-radius: 10px;
+  /* background: linear-gradient(rgb(255, 255, 255), rgb(9, 66, 65)) center; */
+
+}
+
+#Date{
+    font-size: 20px impr !important;
+    text-align: center;
+}
+
+.clock ul{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 20px;
+    
+}
